@@ -36,7 +36,7 @@ public class UserService {
 		User user = getUserById(id);
 		 
 		if (null==user)
-			throw new UserNotFoundException("id-" + id);
+			throw new UserNotFoundException("id -" + id);
 		else
 			deleteUser(user);
 		
